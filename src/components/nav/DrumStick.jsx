@@ -7,7 +7,7 @@ const DrumstickIcon = () => (
             width="100%"
             height="80px"
             viewBox="-10 -20 4200 170"
-            preserveAspectRatio="none"
+            preserveAspectRatio="xMinYMin meet"
             xmlns="http://www.w3.org/2000/svg"
         >
             <g id="g293" transform="translate(-78.352036,-748.39929)">
@@ -20,10 +20,12 @@ const DrumstickIcon = () => (
             </g>
             <text
                 x="350"
-                y="110"
+                y="90"
                 fill="#FFFFFF"
                 fontSize="100"
-                textAnchor="middle">
+                textAnchor="middle"
+                dominantBaseline="middle"
+            >
                 Willie Baltz
             </text>
         </svg>
